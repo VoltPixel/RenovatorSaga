@@ -1,0 +1,331 @@
+/* =============================================
+   Renovator Saga — i18n translations
+   Languages: EN, PL, DE, FR, ES, KO, PT
+   ============================================= */
+
+const TRANSLATIONS = {
+
+  en: {
+    page_title:      "Renovator Saga — Match-3 Renovation Game",
+    hero_subtitle:   "Renovate Mansions &bull; Solve Puzzles &bull; Your Style",
+    hero_desc:       "Help <strong>Maja</strong> restore her grandmother's forgotten mansions to their former glory. Solve match-3 puzzles, earn stars, and decorate every room exactly the way you like.",
+    badge_free:      "Free to Play",
+    features_title:  "Why you'll love it",
+    f1_title:        "Match-3 Puzzles",
+    f1_desc:         "100+ levels with increasing difficulty. Obstacles, boosters, special goals — each level is a new challenge.",
+    f2_title:        "Renovate Mansions",
+    f2_desc:         "3 unique mansions, each with multiple rooms to restore. From crumbling ruin to luxury residence.",
+    f3_title:        "Your Design, Your Style",
+    f3_desc:         "Choose furniture, wall colors, lighting and more. Every decision shapes a mansion that's truly yours.",
+    f4_title:        "21 Power-Up Combos",
+    f4_desc:         "6 unique power-ups that combine in 21 explosive ways. Master them all to clear the toughest boards.",
+    f5_title:        "Daily Challenges",
+    f5_desc:         "Fresh puzzles and rewards every day. Come back to keep your renovation momentum going.",
+    f6_title:        "7 Languages",
+    f6_desc:         "Fully translated into English, Polish, German, French, Spanish, Korean and Portuguese.",
+    showcase_title:  "Before &amp; After",
+    showcase_sub:    "Watch each room transform as you complete puzzles and make decoration choices.",
+    screen1_cap:     "Solve puzzles, earn stars",
+    screen2_cap:     "Your home, your style",
+    screen3_cap:     "Before &amp; after magic",
+    screen4_cap:     "Multiple rooms to renovate",
+    story_title:     "A mansion with a story",
+    story_p1:        "Maja has just inherited her grandmother's estate — beautiful once, now in desperate need of repair. With her friend <strong>Alex</strong> by her side, she sets out to bring it back to life.",
+    story_p2:        "Every puzzle solved unlocks the next chapter of the renovation. Every room you decorate adds a piece of your personality to the mansion.",
+    minigames_title: "More than match-3",
+    mini1_title:     "Interior Design Quiz",
+    mini1_desc:      "Test your knowledge of home decor and architecture.",
+    mini2_title:     "Memory Game",
+    mini2_desc:      "Match pairs of furniture and decor items to unlock bonuses.",
+    mini3_title:     "Before / After Gallery",
+    mini3_desc:      "Scroll through every room you've renovated and admire your work.",
+    cta_title:       "Ready to start renovating?",
+    cta_sub:         "Free to download. No time limits. Your pace, your style.",
+    footer_privacy:  "Privacy Policy",
+    footer_contact:  "Contact",
+  },
+
+  pl: {
+    page_title:      "Renovator Saga — Gra Match-3 o Remoncie",
+    hero_subtitle:   "Remontuj Posiad&#322;o&#347;ci &bull; Rozwi&#261;zuj Puzzle &bull; Tw&#243;j Styl",
+    hero_desc:       "Pom&#243;&#380; <strong>Mai</strong> wyremontowa&#263; dom po babci. Rozwi&#261;zuj puzzle match-3, zdobywaj gwiazdki i dekoruj ka&#380;dy pok&#243;j po swojemu.",
+    badge_free:      "Za darmo",
+    features_title:  "Dlaczego Ci si&#281; spodoba",
+    f1_title:        "Puzzle Match-3",
+    f1_desc:         "100+ poziom&#243;w o rosn&#261;cej trudno&#347;ci. Przeszkody, wzmocnienia, specjalne cele — ka&#380;dy poziom to nowe wyzwanie.",
+    f2_title:        "Remontuj Posiad&#322;o&#347;ci",
+    f2_desc:         "3 unikalne posiad&#322;o&#347;ci z wieloma pokojami do odnowienia. Od ruin po luksusow&#261; rezydencj&#281;.",
+    f3_title:        "Tw&#243;j Design, Tw&#243;j Styl",
+    f3_desc:         "Wybieraj meble, kolory &#347;cian, o&#347;wietlenie i wi&#281;cej. Ka&#380;da decyzja kszta&#322;tuje posiad&#322;o&#347;&#263;, kt&#243;ra jest naprawd&#281; Twoja.",
+    f4_title:        "21 Kombinacji Power-Up",
+    f4_desc:         "6 unikalnych power-up&#243;w &#322;&#261;cz&#261;cych si&#281; na 21 wybuchowych sposob&#243;w. Opanuj je wszystkie, by pokona&#263; najtrudniejsze plansze.",
+    f5_title:        "Codzienne Wyzwania",
+    f5_desc:         "&#346;wie&#380;e puzzle i nagrody ka&#380;dego dnia. Wracaj, by kontynuowa&#263; remont.",
+    f6_title:        "7 J&#281;zyk&#243;w",
+    f6_desc:         "Przet&#322;umaczona na angielski, polski, niemiecki, francuski, hiszpa&#324;ski, korea&#324;ski i portugalski.",
+    showcase_title:  "Przed i Po",
+    showcase_sub:    "Obserwuj, jak ka&#380;dy pok&#243;j zmienia si&#281; w trakcie remontu.",
+    screen1_cap:     "Tw&#243;j dom, Tw&#243;j styl",
+    screen2_cap:     "Rozwi&#261;&#380; puzzle, zdobad&#378; gwiazdki",
+    screen3_cap:     "Przed i po — efekt remontu",
+    screen4_cap:     "Wiele pokoi do odnowienia",
+    story_title:     "Posiad&#322;o&#347;&#263; z histori&#261;",
+    story_p1:        "Maja w&#322;a&#347;nie odziedziczy&#322;a dom po babci — kiedy&#347; pi&#281;kny, teraz desperacko potrzebuj&#261;cy remontu. Z przyjacielem <strong>Alexem</strong> u boku wyrusza, by przywr&#243;ci&#263; mu dawn&#261; &#347;wietno&#347;&#263;.",
+    story_p2:        "Ka&#380;de rozwi&#261;zane puzzle otwiera kolejny rozdzia&#322; remontu. Ka&#380;dy udekorowany pok&#243;j dodaje kawa&#322;ek Twojej osobowo&#347;ci do posiad&#322;o&#347;ci.",
+    minigames_title: "Wi&#281;cej ni&#380; match-3",
+    mini1_title:     "Quiz o Wn&#281;trzach",
+    mini1_desc:      "Sprawd&#378; swoj&#261; wiedz&#281; o dekoracji i architekturze.",
+    mini2_title:     "Memory Game",
+    mini2_desc:      "Dopasowuj pary mebli i dekoracji, by odblokowa&#263; bonusy.",
+    mini3_title:     "Galeria Przed / Po",
+    mini3_desc:      "Przegl&#261;daj ka&#380;dy wyremontowany pok&#243;j i podziwiaj swoje prace.",
+    cta_title:       "Gotowy na remont?",
+    cta_sub:         "Pobierz za darmo. Bez limit&#243;w czasu. Twoje tempo, Tw&#243;j styl.",
+    footer_privacy:  "Polityka Prywatno&#347;ci",
+    footer_contact:  "Kontakt",
+  },
+
+  de: {
+    page_title:      "Renovator Saga — Match-3 Renovierungsspiel",
+    hero_subtitle:   "Villen Renovieren &bull; R&auml;tsel L&ouml;sen &bull; Dein Stil",
+    hero_desc:       "Hilf <strong>Maja</strong>, das Haus ihrer Oma zu renovieren. L&ouml;se Match-3-R&auml;tsel, sammle Sterne und dekoriere jeden Raum nach deinem Geschmack.",
+    badge_free:      "Kostenlos",
+    features_title:  "Warum du es lieben wirst",
+    f1_title:        "Match-3-R&auml;tsel",
+    f1_desc:         "100+ Level mit steigendem Schwierigkeitsgrad. Hindernisse, Booster, besondere Ziele — jedes Level ist eine neue Herausforderung.",
+    f2_title:        "Villen Renovieren",
+    f2_desc:         "3 einzigartige Villen mit mehreren R&auml;umen zum Restaurieren. Von der Ruine zur Luxusresidenz.",
+    f3_title:        "Dein Design, Dein Stil",
+    f3_desc:         "W&auml;hle M&ouml;bel, Wandfarben, Beleuchtung und mehr. Jede Entscheidung gestaltet deine Villa.",
+    f4_title:        "21 Power-Up-Kombinationen",
+    f4_desc:         "6 einzigartige Power-Ups in 21 explosiven Kombinationen. Meistere sie alle, um die schwersten Bretter zu r&auml;umen.",
+    f5_title:        "T&auml;gliche Herausforderungen",
+    f5_desc:         "Frische R&auml;tsel und Belohnungen jeden Tag. Komm zur&uuml;ck und halte deinen Renovierungsschwung.",
+    f6_title:        "7 Sprachen",
+    f6_desc:         "Vollst&auml;ndig &uuml;bersetzt auf Englisch, Polnisch, Deutsch, Franz&ouml;sisch, Spanisch, Koreanisch und Portugiesisch.",
+    showcase_title:  "Vorher &amp; Nachher",
+    showcase_sub:    "Sieh, wie sich jeder Raum bei der Renovierung verwandelt.",
+    screen1_cap:     "Dein Zuhause, dein Stil",
+    screen2_cap:     "R&auml;tsel l&ouml;sen, Sterne sammeln",
+    screen3_cap:     "Vorher &amp; Nachher",
+    screen4_cap:     "Viele R&auml;ume zum Renovieren",
+    story_title:     "Eine Villa mit Geschichte",
+    story_p1:        "Maja hat gerade das Haus ihrer Gro&szlig;mutter geerbt — einst wundersch&ouml;n, jetzt dringend renovierungsbed&uuml;rftig. Mit ihrem Freund <strong>Alex</strong> macht sie sich daran, es wieder zum Leben zu erwecken.",
+    story_p2:        "Jedes gel&ouml;ste R&auml;tsel &ouml;ffnet das n&auml;chste Kapitel der Renovierung. Jeder dekorierte Raum f&uuml;gt einen Teil deiner Pers&ouml;nlichkeit zur Villa hinzu.",
+    minigames_title: "Mehr als Match-3",
+    mini1_title:     "Inneneinrichtungs-Quiz",
+    mini1_desc:      "Teste dein Wissen &uuml;ber Heimdekoration und Architektur.",
+    mini2_title:     "Memory-Spiel",
+    mini2_desc:      "Finde Paare von M&ouml;beln und Dekorationsgegenst&auml;nden, um Boni freizuschalten.",
+    mini3_title:     "Vorher / Nachher Galerie",
+    mini3_desc:      "Bl&auml;ttere durch jeden renovierten Raum und bewundere deine Arbeit.",
+    cta_title:       "Bereit zum Renovieren?",
+    cta_sub:         "Kostenlos herunterladen. Keine Zeitlimits. Dein Tempo, dein Stil.",
+    footer_privacy:  "Datenschutzrichtlinie",
+    footer_contact:  "Kontakt",
+  },
+
+  fr: {
+    page_title:      "Renovator Saga — Jeu de Puzzle Match-3 et R&eacute;novation",
+    hero_subtitle:   "R&eacute;nover des Manoirs &bull; R&eacute;soudre des Puzzles &bull; Votre Style",
+    hero_desc:       "Aidez <strong>Maja</strong> &agrave; r&eacute;nover le manoir de sa grand-m&egrave;re. R&eacute;solvez des puzzles match-3, gagnez des &eacute;toiles et d&eacute;corez chaque pi&egrave;ce &agrave; votre fa&ccedil;on.",
+    badge_free:      "Gratuit",
+    features_title:  "Pourquoi vous allez l'adorer",
+    f1_title:        "Puzzles Match-3",
+    f1_desc:         "100+ niveaux avec une difficult&eacute; croissante. Obstacles, boosters, objectifs sp&eacute;ciaux — chaque niveau est un nouveau d&eacute;fi.",
+    f2_title:        "R&eacute;nover des Manoirs",
+    f2_desc:         "3 manoirs uniques avec plusieurs pi&egrave;ces &agrave; restaurer. D'une ruine &agrave; une r&eacute;sidence de luxe.",
+    f3_title:        "Votre Design, Votre Style",
+    f3_desc:         "Choisissez des meubles, des couleurs de murs, l'&eacute;clairage et plus encore. Chaque d&eacute;cision fa&ccedil;onne votre manoir.",
+    f4_title:        "21 Combos de Power-Ups",
+    f4_desc:         "6 power-ups uniques qui se combinent de 21 fa&ccedil;ons explosives. Ma&icirc;trisez-les tous pour effacer les plateaux les plus difficiles.",
+    f5_title:        "D&eacute;fis Quotidiens",
+    f5_desc:         "Des puzzles frais et des r&eacute;compenses chaque jour. Revenez pour maintenir votre &eacute;lan de r&eacute;novation.",
+    f6_title:        "7 Langues",
+    f6_desc:         "Enti&egrave;rement traduit en anglais, polonais, allemand, fran&ccedil;ais, espagnol, cor&eacute;en et portugais.",
+    showcase_title:  "Avant &amp; Apr&egrave;s",
+    showcase_sub:    "Regardez chaque pi&egrave;ce se transformer au fil de vos puzzles et choix de d&eacute;coration.",
+    screen1_cap:     "Votre maison, votre style",
+    screen2_cap:     "R&eacute;solvez des puzzles, gagnez des &eacute;toiles",
+    screen3_cap:     "Avant &amp; apr&egrave;s",
+    screen4_cap:     "De nombreuses pi&egrave;ces &agrave; r&eacute;nover",
+    story_title:     "Un manoir avec une histoire",
+    story_p1:        "Maja vient d'h&eacute;riter du manoir de sa grand-m&egrave;re — autrefois magnifique, maintenant en grand besoin de r&eacute;novation. Avec son ami <strong>Alex</strong> &agrave; ses c&ocirc;t&eacute;s, elle entreprend de lui redonner vie.",
+    story_p2:        "Chaque puzzle r&eacute;solu d&eacute;verrouille le prochain chapitre de la r&eacute;novation. Chaque pi&egrave;ce d&eacute;cor&eacute;e ajoute une part de votre personnalit&eacute; au manoir.",
+    minigames_title: "Plus qu'un match-3",
+    mini1_title:     "Quiz D&eacute;coration Int&eacute;rieure",
+    mini1_desc:      "Testez vos connaissances en d&eacute;coration et en architecture.",
+    mini2_title:     "Jeu de M&eacute;moire",
+    mini2_desc:      "Associez des paires de meubles et d'objets d&eacute;coratifs pour d&eacute;bloquer des bonus.",
+    mini3_title:     "Galerie Avant / Apr&egrave;s",
+    mini3_desc:      "Parcourez chaque pi&egrave;ce r&eacute;nov&eacute;e et admirez votre travail.",
+    cta_title:       "Pr&ecirc;t &agrave; commencer la r&eacute;novation&nbsp;?",
+    cta_sub:         "Gratuit &agrave; t&eacute;l&eacute;charger. Pas de limites de temps. &Agrave; votre rythme, &agrave; votre style.",
+    footer_privacy:  "Politique de Confidentialit&eacute;",
+    footer_contact:  "Contact",
+  },
+
+  es: {
+    page_title:      "Renovator Saga — Juego de Puzzles Match-3 y Renovaci&oacute;n",
+    hero_subtitle:   "Renueva Mansiones &bull; Resuelve Puzzles &bull; Tu Estilo",
+    hero_desc:       "Ayuda a <strong>Maja</strong> a renovar la mansi&oacute;n de su abuela. Resuelve puzzles match-3, gana estrellas y decora cada habitaci&oacute;n a tu manera.",
+    badge_free:      "Gratis",
+    features_title:  "Por qu&eacute; te encantar&aacute;",
+    f1_title:        "Puzzles Match-3",
+    f1_desc:         "100+ niveles con dificultad creciente. Obst&aacute;culos, potenciadores, objetivos especiales — cada nivel es un nuevo desaf&iacute;o.",
+    f2_title:        "Renueva Mansiones",
+    f2_desc:         "3 mansiones &uacute;nicas con m&uacute;ltiples habitaciones para restaurar. De una ruina a una residencia de lujo.",
+    f3_title:        "Tu Dise&ntilde;o, Tu Estilo",
+    f3_desc:         "Elige muebles, colores de paredes, iluminaci&oacute;n y m&aacute;s. Cada decisi&oacute;n da forma a tu mansi&oacute;n.",
+    f4_title:        "21 Combos de Power-Ups",
+    f4_desc:         "6 power-ups &uacute;nicos que se combinan de 21 formas explosivas. Dom&iacute;nalos todos para despejar los tableros m&aacute;s dif&iacute;ciles.",
+    f5_title:        "Desaf&iacute;os Diarios",
+    f5_desc:         "Puzzles frescos y recompensas cada d&iacute;a. Vuelve para mantener tu impulso de renovaci&oacute;n.",
+    f6_title:        "7 Idiomas",
+    f6_desc:         "Completamente traducido al ingl&eacute;s, polaco, alem&aacute;n, franc&eacute;s, espa&ntilde;ol, coreano y portugu&eacute;s.",
+    showcase_title:  "Antes &amp; Despu&eacute;s",
+    showcase_sub:    "Observa c&oacute;mo se transforma cada habitaci&oacute;n mientras completas puzzles y haces tus elecciones de decoraci&oacute;n.",
+    screen1_cap:     "Tu hogar, tu estilo",
+    screen2_cap:     "Resuelve puzzles, gana estrellas",
+    screen3_cap:     "Antes &amp; despu&eacute;s",
+    screen4_cap:     "Muchas habitaciones para renovar",
+    story_title:     "Una mansi&oacute;n con historia",
+    story_p1:        "Maja acaba de heredar la mansi&oacute;n de su abuela — hermosa en su d&iacute;a, ahora desesperadamente necesitada de reparaci&oacute;n. Con su amigo <strong>Alex</strong> a su lado, se dispone a devolverle la vida.",
+    story_p2:        "Cada puzzle resuelto desbloquea el siguiente cap&iacute;tulo de la renovaci&oacute;n. Cada habitaci&oacute;n que decoras a&ntilde;ade un trozo de tu personalidad a la mansi&oacute;n.",
+    minigames_title: "M&aacute;s que match-3",
+    mini1_title:     "Quiz de Dise&ntilde;o de Interiores",
+    mini1_desc:      "Pon a prueba tu conocimiento de decoraci&oacute;n del hogar y arquitectura.",
+    mini2_title:     "Juego de Memoria",
+    mini2_desc:      "Encuentra pares de muebles y objetos decorativos para desbloquear bonificaciones.",
+    mini3_title:     "Galer&iacute;a Antes / Despu&eacute;s",
+    mini3_desc:      "Desl&iacute;zate por cada habitaci&oacute;n renovada y admira tu trabajo.",
+    cta_title:       "&iquest;Listo para empezar a renovar?",
+    cta_sub:         "Gratis para descargar. Sin l&iacute;mites de tiempo. Tu ritmo, tu estilo.",
+    footer_privacy:  "Pol&iacute;tica de Privacidad",
+    footer_contact:  "Contacto",
+  },
+
+  ko: {
+    page_title:      "Renovator Saga — 매치-3 리모델링 게임",
+    hero_subtitle:   "저택 리모델링 &bull; 퍼즐 풀기 &bull; 나만의 스타일",
+    hero_desc:       "<strong>마야</strong>가 할머니의 저택을 리모델링하는 것을 도와주세요. 매치-3 퍼즐을 풀고, 별을 모으고, 모든 방을 당신만의 방식으로 꾸며보세요.",
+    badge_free:      "무료",
+    features_title:  "이 게임을 좋아하게 될 이유",
+    f1_title:        "매치-3 퍼즐",
+    f1_desc:         "난이도가 점점 높아지는 100개 이상의 레벨. 장애물, 부스터, 특별 목표 — 매 레벨이 새로운 도전입니다.",
+    f2_title:        "저택 리모델링",
+    f2_desc:         "복원할 여러 방이 있는 독특한 저택 3채. 허물어진 폐허에서 럭셔리 저택으로.",
+    f3_title:        "나만의 디자인, 나만의 스타일",
+    f3_desc:         "가구, 벽 색상, 조명 등을 선택하세요. 모든 결정이 진정한 나만의 저택을 만들어냅니다.",
+    f4_title:        "21가지 파워업 콤보",
+    f4_desc:         "21가지 폭발적인 방식으로 결합되는 6종의 고유한 파워업. 가장 어려운 보드를 클리어하려면 모두 마스터하세요.",
+    f5_title:        "일일 도전",
+    f5_desc:         "매일 새로운 퍼즐과 보상. 리모델링 모멘텀을 유지하기 위해 돌아오세요.",
+    f6_title:        "7개 언어",
+    f6_desc:         "영어, 폴란드어, 독일어, 프랑스어, 스페인어, 한국어, 포르투갈어로 완전 번역.",
+    showcase_title:  "리모델링 전 &amp; 후",
+    showcase_sub:    "퍼즐을 완료하고 인테리어 선택을 하면서 각 방이 변화하는 것을 지켜보세요.",
+    screen1_cap:     "나의 집, 나의 스타일",
+    screen2_cap:     "퍼즐 풀기, 별 모으기",
+    screen3_cap:     "리모델링 전 &amp; 후",
+    screen4_cap:     "리모델링할 다양한 방",
+    story_title:     "이야기가 있는 저택",
+    story_p1:        "마야는 방금 할머니의 저택을 상속받았습니다 — 한때는 아름다웠지만, 지금은 절실히 수리가 필요합니다. 친구 <strong>알렉스</strong>와 함께 저택을 되살리기 위한 여정을 시작합니다.",
+    story_p2:        "풀린 퍼즐마다 리모델링의 다음 챕터가 열립니다. 꾸민 방마다 당신의 개성이 저택에 스며듭니다.",
+    minigames_title: "매치-3 그 이상",
+    mini1_title:     "인테리어 디자인 퀴즈",
+    mini1_desc:      "홈 데코와 건축에 대한 지식을 테스트해보세요.",
+    mini2_title:     "메모리 게임",
+    mini2_desc:      "가구와 장식품 쌍을 맞춰 보너스를 잠금 해제하세요.",
+    mini3_title:     "리모델링 전 / 후 갤러리",
+    mini3_desc:      "리모델링한 모든 방을 스크롤하며 작업물을 감상하세요.",
+    cta_title:       "리노베이션을 시작할 준비가 되셨나요?",
+    cta_sub:         "무료 다운로드. 시간 제한 없음. 내 속도로, 내 스타일로.",
+    footer_privacy:  "개인정보 처리방침",
+    footer_contact:  "문의",
+  },
+
+  pt: {
+    page_title:      "Renovator Saga — Jogo de Puzzles Match-3 e Renova&ccedil;&atilde;o",
+    hero_subtitle:   "Renove Mans&otilde;es &bull; Resolva Puzzles &bull; Seu Estilo",
+    hero_desc:       "Ajude <strong>Maja</strong> a renovar a mans&atilde;o de sua av&oacute;. Resolva puzzles match-3, ganhe estrelas e decore cada c&ocirc;modo do seu jeito.",
+    badge_free:      "Gr&aacute;tis",
+    features_title:  "Por que voc&ecirc; vai adorar",
+    f1_title:        "Puzzles Match-3",
+    f1_desc:         "100+ n&iacute;veis com dificuldade crescente. Obst&aacute;culos, impulsionadores, objetivos especiais — cada n&iacute;vel &eacute; um novo desafio.",
+    f2_title:        "Renove Mans&otilde;es",
+    f2_desc:         "3 mans&otilde;es &uacute;nicas com v&aacute;rios c&ocirc;modos para restaurar. De uma ru&iacute;na a uma resid&ecirc;ncia de luxo.",
+    f3_title:        "Seu Design, Seu Estilo",
+    f3_desc:         "Escolha m&oacute;veis, cores de paredes, ilumina&ccedil;&atilde;o e mais. Cada decis&atilde;o molda a mans&atilde;o que &eacute; verdadeiramente sua.",
+    f4_title:        "21 Combos de Power-Ups",
+    f4_desc:         "6 power-ups &uacute;nicos que se combinam de 21 formas explosivas. Domine todos para limpar os tabuleiros mais dif&iacute;ceis.",
+    f5_title:        "Desafios Di&aacute;rios",
+    f5_desc:         "Puzzles frescos e recompensas todos os dias. Volte para manter seu ritmo de renova&ccedil;&atilde;o.",
+    f6_title:        "7 Idiomas",
+    f6_desc:         "Totalmente traduzido para ingl&ecirc;s, polon&ecirc;s, alem&atilde;o, franc&ecirc;s, espanhol, coreano e portugu&ecirc;s.",
+    showcase_title:  "Antes &amp; Depois",
+    showcase_sub:    "Veja cada c&ocirc;modo se transformar enquanto voc&ecirc; completa puzzles e faz escolhas de decora&ccedil;&atilde;o.",
+    screen1_cap:     "Sua casa, seu estilo",
+    screen2_cap:     "Resolva puzzles, ganhe estrelas",
+    screen3_cap:     "Antes &amp; depois",
+    screen4_cap:     "Muitos c&ocirc;modos para renovar",
+    story_title:     "Uma mans&atilde;o com hist&oacute;ria",
+    story_p1:        "Maja acabou de herdar a mans&atilde;o de sua av&oacute; — linda em outros tempos, agora desesperadamente precisando de reparos. Com seu amigo <strong>Alex</strong> ao lado, ela parte para reviv&ecirc;-la.",
+    story_p2:        "Cada puzzle resolvido desbloqueia o pr&oacute;ximo cap&iacute;tulo da renova&ccedil;&atilde;o. Cada c&ocirc;modo decorado adiciona um peda&ccedil;o da sua personalidade &agrave; mans&atilde;o.",
+    minigames_title: "Mais do que match-3",
+    mini1_title:     "Quiz de Design de Interiores",
+    mini1_desc:      "Teste seu conhecimento de decora&ccedil;&atilde;o e arquitetura.",
+    mini2_title:     "Jogo da Mem&oacute;ria",
+    mini2_desc:      "Encontre pares de m&oacute;veis e itens decorativos para desbloquear b&ocirc;nus.",
+    mini3_title:     "Galeria Antes / Depois",
+    mini3_desc:      "Percorra cada c&ocirc;modo renovado e admire seu trabalho.",
+    cta_title:       "Pronto para come&ccedil;ar a renovar?",
+    cta_sub:         "Gratuito para baixar. Sem limites de tempo. Seu ritmo, seu estilo.",
+    footer_privacy:  "Pol&iacute;tica de Privacidade",
+    footer_contact:  "Contato",
+  },
+
+};
+
+/* ---- Language detection & switching ---- */
+
+const SUPPORTED_LANGS = Object.keys(TRANSLATIONS);
+
+function detectLang() {
+  const params = new URLSearchParams(window.location.search);
+  const urlLang = params.get('lang');
+  if (urlLang && SUPPORTED_LANGS.includes(urlLang)) return urlLang;
+  const browserLang = (navigator.language || 'en').slice(0, 2).toLowerCase();
+  if (SUPPORTED_LANGS.includes(browserLang)) return browserLang;
+  return 'en';
+}
+
+function applyLang(lang) {
+  const t = TRANSLATIONS[lang] || TRANSLATIONS.en;
+  document.documentElement.lang = lang;
+  if (t.page_title) document.title = t.page_title;
+  document.querySelectorAll('[data-i18n]').forEach(function(el) {
+    const key = el.getAttribute('data-i18n');
+    if (t[key] !== undefined) el.innerHTML = t[key];
+  });
+  document.querySelectorAll('.lang-btn').forEach(function(btn) {
+    btn.classList.toggle('active', btn.getAttribute('data-lang') === lang);
+  });
+}
+
+function setLang(lang) {
+  const url = new URL(window.location.href);
+  url.searchParams.set('lang', lang);
+  history.pushState({}, '', url);
+  applyLang(lang);
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('.lang-btn').forEach(function(btn) {
+    btn.addEventListener('click', function(e) {
+      e.preventDefault();
+      setLang(btn.getAttribute('data-lang'));
+    });
+  });
+  applyLang(detectLang());
+});
